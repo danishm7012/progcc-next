@@ -1,10 +1,14 @@
 import Meta from '../components/Meta'
+import About from '../components/About'
+import Title from '../components/proServiceDetail/Title'
 
 const about = () => {
   return (
     <div>
       <Meta title='About' />
-      <h1>About</h1>
+      <Title img='/images/Banners/About-Us.jpg' />
+
+      <About />
     </div>
   )
 }

@@ -14,9 +14,10 @@ const Meta = ({ title, keywords, description }) => {
 }
 
 Meta.defaultProps = {
-  title: 'WebDev Newz',
-  keywords: 'web development, programming',
-  description: 'Get the latest news in web dev',
+  title: 'PRO Services in UAE - PRO Services Dubai - PRO GCC',
+  keywords: 'PRO Services',
+  description:
+    'PRO Services in UAE where PRO GCC team of expert Consultants handhold you throughout the required PRO Service Dubai from the beginning to the end with legal documentation.',
 }
 
 export default Meta
