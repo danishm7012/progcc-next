@@ -8,8 +8,8 @@ const Blog = ({ blog }) => {
         <Col lg={6} sm={12} className='order-2 order-lg-1'>
           <h3>{blog.title}</h3>
           <p className='m-2 py-2'>
-            {blog.detail.slice(0, 500)}...{' '}
-            <Link href={`/news/${blog._id}`}>
+            {blog.details.slice(0, 500)}...{' '}
+            <Link href={`/news/[blogID]`} as={`/news/${blog.slug}`}>
               <strong>Read more</strong>
             </Link>{' '}
             <br />
