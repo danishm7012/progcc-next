@@ -36,35 +36,35 @@ function TopCTA() {
               <a
                 href='https://twitter.com/ProGCC2'
                 target='blank'
-                class='twitter'
+                className='twitter'
               >
                 <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
               </a>
               <a
                 href='https://www.facebook.com/PRO-GCC-107895398113832'
                 target='blank'
-                class='facebook'
+                className='facebook'
               >
                 <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
               </a>
               <a
                 href='https://www.instagram.com/progcc1/'
                 target='blank'
-                class='instagram'
+                className='instagram'
               >
                 <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
               </a>
               <a
                 href='https://www.linkedin.com/company/73792623'
                 target='blank'
-                class='linkedin'
+                className='linkedin'
               >
                 <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
               </a>
               <a
                 href='https://www.pinterest.com/progccofficial/'
                 target='blank'
-                class='pinterest'
+                className='pinterest'
               >
                 <FontAwesomeIcon icon={faPinterestP}></FontAwesomeIcon>
               </a>

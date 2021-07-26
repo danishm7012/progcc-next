@@ -34,14 +34,14 @@ function contactUs() {
                     ></FontAwesomeIcon>
                     <h3>Our Address</h3>
                     <p>
-                      <span>UAE Office:</span> Park Lane Plaza, 12th Floor,
-                      Office No. 1213, Down Town, Dubai UAE. P.O. BOX 415253
+                      <span>UAE Office:</span> P.O. BOX 415253, Dubai, UAE
+                      Business Bay, Park Lane Plaza, 12th Floor, Office No. 1213
                       <br />
                       <span>UK Office:</span> 3rd Floor, 244 Edgware Road,
                       London W2 1DS, UK.
                       <br />
-                      <span>PAK Office:</span> Office No.18, Naqi Arcade, 71-The
-                      Mall Road, Lahore, Pakistan.
+                      <span>PAK Office:</span> 2nd Floor, Plaza no 83 Phase 1
+                      Block - H, DHA Lahore
                     </p>
                   </div>
                 </div>

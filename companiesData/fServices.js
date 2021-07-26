@@ -1,6 +1,6 @@
-const fServices = [
+const Services = [
   {
-    _id: 'document-processing-in-immigration',
+    slug: 'document-processing-in-immigration',
     name: 'Document processing in immigration, employment and other government departments',
     banner:
       '/images/Banners/Document-processing-in-immigration,-employment-and-other-government-departments.jpg',
@@ -63,7 +63,7 @@ const fServices = [
       'The UAE biometric passport is an official document of the UAE for Immigration. Other country and UAE citizens can apply for renewal of the UAE passport for Immigration and obtain another visa that is an alternative to the lost UAE passport; this document processing carried out through the authorities responsible for UAE passports, such as the Directorate General of Residency and Foreign Affairs, GDRFA citizenship departments. It can be applied through the PRO GCC online Channels portal website, as well as residence, citizenship, and The Federal Authority for Identity and Nationality, Abu Dhabi, Dubai, and Sharjah Airports, UAE and other country citizens can renew the passport in an emergency at Abu Dhabi, Dubai and Sharjah airports, renew the passport. In case of expiry of passport or visa, if they travel abroad, they can contact the EMBASSy of the UAE in the country where they available to begin the procedures for renewing the UAE passport.',
   },
   {
-    _id: 'united-arab-emirates-importance-to-youth-empowerment',
+    slug: 'united-arab-emirates-importance-to-youth-empowerment',
     name: 'United Arab Emirates Importance to Youth Empowerment',
     banner: '/images/Banners/youth-empowerment.jpg',
     icon: '/images/icons/33-Small-co-working-and-furnished-office-space-or-shared-office-space-for-rent-in-Dubai.png',
@@ -89,7 +89,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'bank-guarantee-services-for-your-business',
+    slug: 'bank-guarantee-services-for-your-business',
     name: 'Bank Guarantee services for Your Business',
 
     banner: '/images/Banners/Bank-Guarantee-in-UAE.jpg',
@@ -124,7 +124,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'business-registration-and-licensing-dubai',
+    slug: 'business-registration-and-licensing-dubai',
     name: 'Business registration and licensing Dubai',
     banner: '/images/Banners/business-registration-and-licensing.jpg',
     icon: '/images/icons/03-Business-Registration-&-Licensing.png',
@@ -160,7 +160,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'business-sponsor-services',
+    slug: 'business-sponsor-services',
     name: 'Business sponsor services',
     banner: '/images/Banners/Business-sponsor-services.jpg',
     icon: '/images/icons/42-Local-Sponsorship-services.png',
@@ -216,7 +216,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'business-trade-licensing',
+    slug: 'business-trade-licensing',
     name: 'business trade licensing',
     banner: '/images/Banners/business-trade-licensing.jpg',
     icon: '/images/icons/06-General-Trading-Licensing.png',
@@ -244,7 +244,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'CICPA-security-passes-services',
+    slug: 'CICPA-security-passes-services',
     name: 'CICPA Security Passes Services with PRO GCC GUIDE',
     banner: '/images/Banners/CICPA-Security-Passes-Services.jpg',
     icon: '/images/icons/16-CICPA-Security-Passes-Services.png',
@@ -272,7 +272,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'commercial-agency-solutions',
+    slug: 'commercial-agency-solutions',
     name: 'Commercial Agency solutions',
     banner: '/images/Banners/Commercial-Agency-solutions.jpg',
     icon: '/images/icons/30-Commercial-Agency-solutions.png',
@@ -302,7 +302,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'company-registration-in-UAE',
+    slug: 'company-registration-in-UAE',
     name: 'Company registration in UAE',
     banner: '/images/Banners/Company-Registration-in-UAE.jpg',
     icon: '/images/icons/01-Company-Registration-Services.png',
@@ -353,7 +353,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'visa-permission-to-the-UAE',
+    slug: 'visa-permission-to-the-UAE',
     name: 'visa permission to the UAE',
     banner: '/images/Banners/visa-permission.jpg',
     icon: '/images/icons/40-Translates-legal-documents-into-Arabic.png',
@@ -403,7 +403,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'dubai-economic-department-trade-license-renewal',
+    slug: 'dubai-economic-department-trade-license-renewal',
     name: 'Dubai Economic Department Trade License Renewal',
     banner:
       '/images/Banners/dubai-economic-department-trade-license-renewal.jpg',
@@ -435,7 +435,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'dubai-local-telephone-numbers-for-your-business',
+    slug: 'dubai-local-telephone-numbers-for-your-business',
     name: 'Dubai Local Telephone Numbers for Your Business',
     banner: '/images/Banners/local-telephone-numbers.jpg',
     icon: '/images/icons/19-Local-telephone-numbers.png',
@@ -468,7 +468,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'dubai-mainland-trade-licensing',
+    slug: 'dubai-mainland-trade-licensing',
     name: 'Dubai mainland trade licensing',
     banner: '/images/Banners/Dubai-mainland-trade-licensing.jpg',
     icon: '/images/icons/04-Dubai-Mainland-Trade-Licensing.png',
@@ -499,7 +499,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'dubai-Office-setup',
+    slug: 'dubai-Office-setup',
     name: 'Dubai Office Setup',
     banner: '/images/Banners/Offic-Setup-in-Dubai.jpg',
     icon: '/images/icons/02-Office-Setup-in-Dubai.png',
@@ -552,7 +552,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'engineering-classification-abu-dhabi',
+    slug: 'engineering-classification-abu-dhabi',
     name: 'Engineering Classification Abu Dhabi',
     banner: '/images/Banners/Engineering-Classification-Abu-Dhabi.jpg',
     icon: '/images/icons/31-Engineering-Classification-Abu-Dhabi.png',
@@ -585,7 +585,7 @@ const fServices = [
     fifthP: `All companies engaged in engineering or contracting activities should immediately explore whether the activities currently licensed on the company's commercial license require classification. The same applies to people planning to create new companies operating in these sectors.`,
   },
   {
-    _id: 'flexi-desk-services',
+    slug: 'flexi-desk-services',
     name: 'Flexi desk services',
     banner: '/images/Banners/flexi-desk-services.jpg',
     icon: '/images/icons/14-Flexi-desk-services.png',
@@ -615,7 +615,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'General-Trade-License',
+    slug: 'General-Trade-License',
     name: 'General Trade License',
     banner: '/images/Banners/general-trading-licensing.jpg',
     icon: '/images/icons/06-General-Trading-Licensing.png',
@@ -654,7 +654,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'import-and-export-certificates-and-documents-through-a-notary',
+    slug: 'import-and-export-certificates-and-documents-through-a-notary',
     name: 'Import and export certificates and documents through a notary',
     banner:
       '/images/Banners/Import.export-certificates-and-other-legal-documents.jpg',
@@ -696,7 +696,7 @@ const fServices = [
     fifthP: `The statement of the package is a document issued by the factory or the product with the data of all products and goods charged and the number of each product in addition to the weight of the shipment and the name of the importer. The number of the commercial invoices, as the package's statement contains all the specifications of the products, and those specifications must be correct because the goods are examined by the customs authorities and are confirmed to conform to the specifications. The package statement document is one of the most important documents to be submitted from the source for customs release of goods.`,
   },
   {
-    _id: 'IT-support-services',
+    slug: 'IT-support-services',
     name: 'IT Support Services (Information Technology)',
     banner: '/images/Banners/IT-Support-services.jpg',
     icon: '/images/icons/22-IT-Support-services.png',
@@ -734,7 +734,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'legal-document-attestation-services-in-UAE',
+    slug: 'legal-document-attestation-services-in-UAE',
     name: 'Legal Document Attestation Services in UAE',
     banner: '/images/Banners/Legal-Document-Attestation-Services.jpg',
     icon: '/images/icons/28-Legal-Document-Attestation-Services.png',
@@ -771,7 +771,7 @@ const fServices = [
       'When a person dies, the government issues a certificate Attestation proving the death. The government and the embassy document this certificate; if the incident occurs outside the UAE, the certificate is issued from the country of origin and must be certified by the Ministry of Foreign Affairs, the heirs must appoint a person representing them under a particular agency, at a later date the inherited funds, shares, real estate, sale of shares and liquidation of any company in the name of the deceased person can be transferred',
   },
   {
-    _id: 'local-partner-services',
+    slug: 'local-partner-services',
     name: 'Local partner services',
     banner: '/images/Banners/Local-partner-services.jpg',
     icon: '/images/icons/26-Local-partner-services.png',
@@ -795,7 +795,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'local-sponsorship-services',
+    slug: 'local-sponsorship-services',
     name: 'Local Sponsorship services',
     banner: '/images/Banners/Local-Sponsorship-services.jpg',
     icon: '/images/icons/24-Business-sponser-services.png',
@@ -834,7 +834,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'meeting-facilities-in-UAE',
+    slug: 'meeting-facilities-in-UAE',
     name: 'PRO GCC Meeting facilities in UAE',
     banner: '/images/Banners/meeting-rooms-services.jpg',
     icon: '/images/icons/18-Meeting-rooms-services.png',
@@ -877,7 +877,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'prime-business-address-services',
+    slug: 'prime-business-address-services',
     name: 'Prime business address services',
 
     banner: '/images/Banners/prime-business-address-services.jpg',
@@ -904,7 +904,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'quality-assurance-in-Business ',
+    slug: 'quality-assurance-in-Business ',
     name: 'Quality Assurance in Business ',
     banner: '/images/Banners/Assurance-to-investors-and-partners.jpg',
     icon: '/images/icons/46-Assurance-to-investors-and-partners.png',
@@ -964,7 +964,7 @@ const fServices = [
       'In addition to issuing a report on our opinion on the financial statements, we may give a letter to management on accounting and internal control matters during the audit process or upon completion of the audit.',
   },
   {
-    _id: 'rental-application',
+    slug: 'rental-application',
     name: 'Rental application ',
     banner:
       '/images/Banners/Rental-application-(commercial,-residential-rent).jpg',
@@ -1035,7 +1035,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'security-services-in-dubai',
+    slug: 'security-services-in-dubai',
     name: 'Security Services In Dubai',
     banner: '/images/Banners/reception-and-security-providing-services.jpg',
     icon: '/images/icons/21-Reception-and-security-providing-services.png',
@@ -1075,7 +1075,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'small-and-large-co-working-office-space',
+    slug: 'small-and-large-co-working-office-space',
     name: 'Small and Large Co-working Office Space',
     banner: '/images/Banners/small-co-working-and-furnished-office-space.jpg',
     icon: '/images/icons/13-A-co-working-space.png',
@@ -1112,7 +1112,7 @@ const fServices = [
     fifthP: `A study by Small Business Labs shows that 80% of co-workers report that they turn to their co-workers for work guidance. This is a large number of business owners who are leveraging workspaces to support their business decisions and gain new insights into their industry. `,
   },
   {
-    _id: 'smart-desk-services',
+    slug: 'smart-desk-services',
     name: 'smart desk services',
     banner: '/images/Banners/smart-desk-services.jpg',
     icon: '/images/icons/15-smart-desk-services.png',
@@ -1145,7 +1145,7 @@ const fServices = [
     fifthP: `When you want a standing desk, you usually have to choose between a large (and expensive) full-fledged desk or go for an unintelligent work surface on your desk. With Movi Desk, you'll get the best of both worlds. This smart desk works with your existing desk or table. But, it also has an in-built electric lift system. There is a panel where you can change the height as per your need to the left of the roof. With a beautiful bamboo surface finish, the Movi Desk works anywhere.`,
   },
   {
-    _id: 'spc-approval-services',
+    slug: 'spc-approval-services',
     name: 'Supreme Petroleum Council (SPC) Approval Services',
     banner: '/images/Banners/SPC-Approval-Services-Abu-Dhabi.jpg',
     icon: '/images/icons/32-SPC-Approval-Services-Abu-Dhabi.png',
@@ -1173,7 +1173,7 @@ const fServices = [
     fifthP: `Identifying and approving the policies and strategies of oil, gas and other hydrocarbons in the light of national circumstances and interests, including determining production quantities and approving plans for pricing different sources of fuel and values in the Abu Dabi.`,
   },
   {
-    _id: 'tourism-license',
+    slug: 'tourism-license',
     banner: '/images/Banners/Tourism-license-services.jpg',
     icon: '/images/icons/23Tourism-license-services.png',
     metaTitle: `Tourism License in Dubai | PRO GCC Tourism License Services in UAE`,
@@ -1214,7 +1214,7 @@ const fServices = [
     name: 'Tourism license',
   },
   {
-    _id: 'trade-license-dubai-fees',
+    slug: 'trade-license-dubai-fees',
     name: 'Trade License Dubai Fees',
     banner: '/images/Banners/trade-license-dubai-fees.jpg',
     icon: '/images/icons/11-Dubai-trade-license-print-out.png',
@@ -1251,7 +1251,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'uae-citizen-partner',
+    slug: 'uae-citizen-partner',
     name: 'UAE Citizen Partner',
     banner: '/images/Banners/UAE-citizen-partnership.jpg',
     icon: '/images/icons/26-Local-partner-services.png',
@@ -1310,7 +1310,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'translates-legal-documents-into-arabic',
+    slug: 'translates-legal-documents-into-arabic',
     name: 'Translates legal documents into Arabic',
     banner: '/images/Banners/Translates-legal-documents-into-Arabic.jpg',
     icon: '/images/icons/40-Translates-legal-documents-into-Arabic.png',
@@ -1365,7 +1365,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'best-business-opportunities-in-uae',
+    slug: 'best-business-opportunities-in-uae',
     name: 'Best business opportunities in UAE',
     banner: '/images/Banners/business-opportunities.jpg',
     icon: '/images/icons/07-Business-Opportunities.png',
@@ -1409,7 +1409,7 @@ const fServices = [
   },
 
   {
-    _id: 'statutory-audit-service',
+    slug: 'statutory-audit-service',
     name: 'Statutory Audit Service',
     banner: '/images/Banners/Statutory-Audit-Service.jpg',
     icon: '/images/icons/45-Statutory-Audit-Service.png',
@@ -1443,7 +1443,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'internal-audit-services',
+    slug: 'internal-audit-services',
     name: 'Internal Audit Services',
     banner: '/images/Banners/Internal-Audit-Service.jpg',
     icon: '/images/icons/43-Internal-Audit-Service.png',
@@ -1487,7 +1487,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'ways-to-get-an-industrial-or-commercial-license-in-the-uae',
+    slug: 'ways-to-get-an-industrial-or-commercial-license-in-the-uae',
     name: 'Ways to get an industrial or commercial license in the UAE',
     banner:
       '/images/Banners/Apply-for-an-industrial-or-commercial-license-and-submit-an-application-for-renewal.jpg',
@@ -1540,7 +1540,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'external-audit-services',
+    slug: 'external-audit-services',
     name: 'External Audit Services',
     banner: '/images/Banners/External-audit-service.jpg',
     icon: '/images/icons/44-External-Audit-Service.png',
@@ -1591,7 +1591,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'affice-suit-services',
+    slug: 'affice-suit-services',
     name: 'Office suit services',
     banner: '/images/Banners/office-suits-services.jpg',
     icon: '/images/icons/20-Office-suits-services.png',
@@ -1622,7 +1622,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'electronic-property-registration-for-patents',
+    slug: 'electronic-property-registration-for-patents',
     name: 'Electronic property registration for patents',
     banner:
       '/images/Banners/Electronic-property-registration-for-patents,-copyrights-and-trademarks.jpg',
@@ -1669,7 +1669,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'government-accreditation',
+    slug: 'government-accreditation',
     name: 'Government accreditation',
     banner:
       '/images/Banners/Government-accreditation-file-and-obtaining-no-objection-certificates-from-government-ministries.jpg',
@@ -1703,7 +1703,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'secretarial-services',
+    slug: 'secretarial-services',
     name: 'Secretarial services',
     banner: '/images/Banners/Secretarial-services.jpg',
     icon: '/images/icons/27-Sacretarial-services.png',
@@ -1750,7 +1750,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'business-card-or-immigration-card',
+    slug: 'business-card-or-immigration-card',
     name: 'Business Card or immigration Card',
     banner: '/images/Banners/business-card.jpg',
     icon: '/images/icons/36-Preparing-the-company-immigration-card-and-business-card.png',
@@ -1789,7 +1789,7 @@ const fServices = [
     fifthP: '',
   },
   {
-    _id: 'business-account',
+    slug: 'business-account',
     name: 'Business Account',
     banner: '/images/Banners/Business-account.jpg',
     icon: '/images/icons/banking/Business-Account_icon.png',
@@ -1857,7 +1857,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'bonds',
+    slug: 'bonds',
     name: 'Bonds',
     banner: '/images/Banners/Bonds.jpg',
     icon: '/images/icons/banking/Bond_icon.png',
@@ -1886,7 +1886,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'fleet-vehicle-finance',
+    slug: 'fleet-vehicle-finance',
     name: 'Fleet Vehicle Finance',
     banner: '/images/Banners/Fleet-Vehicle-Finance.jpg',
     icon: '/images/icons/banking/Fleet-Vehicles-Fianance.png',
@@ -1922,7 +1922,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'bank-guarantee-in-uae',
+    slug: 'bank-guarantee-in-uae',
     name: 'BANK guarantee in UAE',
     banner: '/images/Banners/Bank-Guarantee-in-UAE.jpg',
     icon: '/images/icons/banking/Bank-Gurantee-In-UAE.png',
@@ -1978,7 +1978,7 @@ const fServices = [
     fifthP: `The PRO GCC BANK guarantee Dubai UAE is between two parties, namely the client and the beneficiary. Still, the Bank joins into this relationship in order to increase the guarantee within the client and the beneficiary, as the bank guarantees to the recipient that the client will be paid the amount of money, so some countries view the letter of proof that it is a bilateral relationship and not a tripartite relationship because the Bank has a credited character, and that it must guarantee these letters because the customer must have a balance in the Bank sufficient letter of guarantee at least, and that during the duration of the letter of proof does not The customer may withdraw this economic value, hence the idea of a bilateral relationship and not a trilogy.`,
   },
   {
-    _id: 'business-loans',
+    slug: 'business-loans',
     name: 'Business Loans',
     banner: '/images/Banners/Business-Loan.jpg',
     icon: '/images/icons/banking/Business-Loan.png',
@@ -2040,7 +2040,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'company-registration-in-uae',
+    slug: 'company-registration-in-uae',
     name: 'Company registration',
     banner: '/images/Banners/Company-Registration-Service.jpg',
     icon: '/images/icons/banking/Company-Registration_icon.png',
@@ -2095,7 +2095,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'credit-card',
+    slug: 'credit-card',
     name: 'Credit Card',
     banner: '/images/Banners/Credit-Card.jpg',
     icon: '/images/icons/banking/Cradit-Card_Icon.png',
@@ -2133,7 +2133,7 @@ const fServices = [
     fifthP: `It is also a free card for life and comes with several significant benefits such as free cinema tickets and hello service upon arrival at the airport lounge. But most importantly, it is one of the most accessible cards in the UAE to benefit from cash returns. All you have to do is make purchases of at least AED 1,000, and you will be eligible for 1.5% of the financial return on all your purchases - up to AED 1,000.`,
   },
   {
-    _id: 'digital-account',
+    slug: 'digital-account',
     name: 'Digital Account',
     banner: '/images/Banners/Digital-Account.jpg',
     icon: '/images/icons/banking/Digital-Account.png',
@@ -2170,7 +2170,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'fixed-deposit-account',
+    slug: 'fixed-deposit-account',
     name: 'Fixed Deposit Account',
     banner: '/images/Banners/Fixed-Deposit-Account.jpg',
     icon: '/images/icons/banking/Fixed-Deposit_icon.png',
@@ -2212,7 +2212,7 @@ const fServices = [
     fifthP: `This type of account allows customers to withdraw their bank financial deposits on request without warning, to facilitate non-cash payments by cheque.`,
   },
   {
-    _id: 'freezone-bank-account',
+    slug: 'freezone-bank-account',
     name: 'Freezone Bank Account',
     banner: '/images/Banners/Freezone-Bank-Account.jpg',
     icon: '/images/icons/banking/Free-Zont-BAnk-account_icon.png',
@@ -2248,7 +2248,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'investment-in-dubai',
+    slug: 'investment-in-dubai',
     name: 'Investment in Dubai',
     banner: '/images/Banners/Investment-in-Dubai.jpg',
     icon: '/images/icons/banking/Investment-In-Dubai_icon.png',
@@ -2290,7 +2290,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'life-insurance',
+    slug: 'life-insurance',
     name: 'Life Insurance',
     banner: '/images/Banners/Life-Insurance.jpg',
     icon: '/images/icons/banking/Life-Insurance_icon.png',
@@ -2324,7 +2324,7 @@ const fServices = [
   },
 
   {
-    _id: 'salary-account',
+    slug: 'salary-account',
     name: 'Salary Account',
     banner: '/images/Banners/Salary-Account.jpg',
     icon: '/images/icons/banking/Personal-Account_icon.png',
@@ -2368,7 +2368,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'trading-account',
+    slug: 'trading-account',
     name: 'Trading Account',
     banner: '/images/Banners/Trading-Account.jpg',
     icon: '/images/icons/banking/Trading-Account_icon.png',
@@ -2395,7 +2395,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'motor-insurance',
+    slug: 'motor-insurance',
     name: 'Motor Insurance',
     banner: '/images/Banners/Motor-Insurance.jpg',
     icon: '/images/icons/banking/Motor-Insurance_icon.png',
@@ -2421,7 +2421,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'personal-account',
+    slug: 'personal-account',
     name: 'Personal Account',
     banner: '/images/Banners/Personal-Account.jpg',
     icon: '/images/icons/banking/Personal-Account_icon.png',
@@ -2444,7 +2444,7 @@ const fServices = [
     fifthP: `Our company will help you to get personal account immediately from any bank you want but located in UAE`,
   },
   {
-    _id: 'offshore-account',
+    slug: 'offshore-account',
     name: 'Offshore Account',
     banner: '/images/Banners/Offshore-Account.jpg',
     icon: '/images/icons/banking/offshore-account-icon.png',
@@ -2480,7 +2480,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'non-resident-account',
+    slug: 'non-resident-account',
     name: 'Non resident account',
     banner: '/images/Banners/Non-resident-account.jpg',
     icon: '/images/icons/banking/Non-Resident-Account_icon.png',
@@ -2515,7 +2515,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'home-loans',
+    slug: 'home-loans',
     name: 'Home Loans',
     banner: '/images/Banners/Home-Loans.jpg',
     icon: '/images/icons/banking/Home-Loan_icon.png',
@@ -2554,7 +2554,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'letter-of-credit',
+    slug: 'letter-of-credit',
     name: 'Letter of credit',
     banner: '/images/Banners/Letter-of-credit.jpg',
     icon: '/images/icons/banking/Letter-of-cradit_icon.png',
@@ -2582,7 +2582,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'mainland-account',
+    slug: 'mainland-account',
     name: 'Mainland Account',
     banner: '/images/Banners/Mainland-Account.jpg',
     icon: '/images/icons/banking/Main-land_icon.png',
@@ -2615,7 +2615,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'medical-insurance',
+    slug: 'medical-insurance',
     name: 'Medical Insurance',
     banner: '/images/Banners/Medical-Insurance.jpg',
     icon: '/images/icons/banking/Medical-insurance_icon.png',
@@ -2667,7 +2667,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'non-resident-loan',
+    slug: 'non-resident-loan',
     name: 'Non Resident Loan',
     banner: '/images/Banners/Non-Resident-Loan.jpg',
     icon: '/images/icons/banking/Non-Resident-Account_icon.png',
@@ -2714,7 +2714,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'self-employed-loan',
+    slug: 'self-employed-loan',
     name: 'Self Employed Loan',
     banner: '/images/Banners/Self-Employed-Loan.jpg',
     icon: '/images/icons/banking/self-employed-Loan_icon.png',
@@ -2764,7 +2764,7 @@ const fServices = [
     fifthP: ``,
   },
   {
-    _id: 'vehicle-loan',
+    slug: 'vehicle-loan',
     name: 'Vehicle Loan',
     banner: '/images/Banners/Vehicle-Loan.jpg',
     icon: '/images/icons/banking/Vehicles-Loan_icon.png',
@@ -2803,7 +2803,7 @@ const fServices = [
     `,
   },
   {
-    _id: 'sukuks',
+    slug: 'sukuks',
     name: 'Sukuks',
     banner: '/images/Banners/sukuks.jpg',
     icon: '/images/icons/banking/Sukuks_icon.png',
@@ -2836,4 +2836,4 @@ const fServices = [
   },
 ]
 
-export default fServices
+export default Services

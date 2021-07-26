@@ -6,26 +6,26 @@ import Banking from '../components/Banking'
 import Team from '../components/team/team'
 import Contact from '../components/Contact'
 
-export default function Home({ articles }) {
+export default function Home({ services }) {
   return (
     <div>
       <Hero />
-      <Pro />
+      <Pro services={services} />
       <About />
-      <Banking />
+      <Banking services={services} />
       <Team />
       <Contact />
     </div>
   )
 }
 
-// export const getStaticProps = async () => {
-//   const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
-//   const articles = await res.json()
+export const getStaticProps = async () => {
+  const res = await fetch(`http://localhost:3000/api/services`)
+  const services = await res.json()
 
-//   return {
-//     props: {
-//       articles,
-//     },
-//   }
-// }
+  return {
+    props: {
+      services,
+    },
+  }
+}

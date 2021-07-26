@@ -53,7 +53,7 @@ const Footer = () => {
                     icon={faChevronRight}
                     className='icons'
                   ></FontAwesomeIcon>{' '}
-                  <Link href='/home'>Home</Link>
+                  <Link href='/'>Home</Link>
                 </li>
                 <li>
                   <FontAwesomeIcon
@@ -94,35 +94,14 @@ const Footer = () => {
                     icon={faChevronRight}
                     className='icons'
                   ></FontAwesomeIcon>{' '}
-                  <a href='/'>PRO Service</a>
+                  <a href='/pro-services'>PRO Service</a>
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faChevronRight}
                     className='icons'
                   ></FontAwesomeIcon>{' '}
-                  <a href='/'>Banking services</a>
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faChevronRight}
-                    className='icons'
-                  ></FontAwesomeIcon>{' '}
-                  <a href='/'>UAE Office setup</a>
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faChevronRight}
-                    className='icons'
-                  ></FontAwesomeIcon>{' '}
-                  <a href='/'>Licensing</a>
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faChevronRight}
-                    className='icons'
-                  ></FontAwesomeIcon>{' '}
-                  <a href='/'>Office for Rent</a>
+                  <a href='/banking-services'>Banking services</a>
                 </li>
               </ul>
             </div>
@@ -130,10 +109,8 @@ const Footer = () => {
             <div className='col-lg-3 col-md-6 footer-contact'>
               <h4>Contact Us</h4>
               <p>
-                Park Lane Plaza, 12th Floor, Office No. 1213. Down Town Dubai,
-                UAE.
-                <br />
-                P.O. BOX 415253
+                P.O. BOX 415253, Dubai, UAE Business Bay, Park Lane Plaza, 12th
+                Floor, Office No. 1213
                 <br />
                 <br />
                 <strong>
@@ -194,7 +171,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                 </a>
                 <a
-                  href='/https://www.pinterest.com/progccofficial/'
+                  href='https://www.pinterest.com/progccofficial/'
                   target='blank'
                   className='pinterest'
                 >

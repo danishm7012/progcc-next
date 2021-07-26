@@ -1,8 +1,7 @@
-import FSdata from '../companiesData/fServices'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 
-const FServices = () => {
+const FServices = ({ services }) => {
   return (
     <div id='services' className='section'>
       <Container>
@@ -18,20 +17,22 @@ const FServices = () => {
         </div>
 
         <Row>
-          {FSdata.filter((s) => s.category === 'PRO').map((service) => (
-            <Col lg={4} md={4} sm={12} xs={12} key={service.name}>
-              <Link href={`/${service._id}`}>
-                <div className='f-services'>
-                  <img
-                    className='service-icon'
-                    src={service.icon}
-                    alt={service.id}
-                  />
-                  <p>{service.name}</p>
-                </div>
-              </Link>
-            </Col>
-          ))}
+          {services
+            .filter((s) => s.category === 'PRO')
+            .map((service) => (
+              <Col lg={4} md={4} sm={12} xs={12} key={service.name}>
+                <Link href={`/${service.slug}`}>
+                  <div className='f-services'>
+                    <img
+                      className='service-icon'
+                      src={service.icon}
+                      alt={service.name}
+                    />
+                    <p>{service.name}</p>
+                  </div>
+                </Link>
+              </Col>
+            ))}
         </Row>
       </Container>
     </div>

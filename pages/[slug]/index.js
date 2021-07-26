@@ -1,31 +1,13 @@
-import { useRouter } from 'next/router'
-import React, { useState, useEffect } from 'react'
-import ProServices from '../../companiesData/fServices'
 import { Container, Jumbotron, Row, Col, Button } from 'react-bootstrap'
 import Title from '../../components/proServiceDetail/Title'
 import SectionH1 from '../../components/proServiceDetail/sectionH1'
 import List from '../../components/proServiceDetail/List'
-import orderList from '../../components/proServiceDetail/orderList'
 import Section from '../../components/proServiceDetail/section'
 import Meta from '../../components/Meta'
 import Link from 'next/link'
+import { server } from '../../config/index'
 
-const index = () => {
-  const router = useRouter()
-  const { serviceID } = router.query
-  const [Service, setService] = useState({})
-  /* const [Backbutton, setBackbutton] = useState('') */
-
-  /* const [altTag, setAltTag] = useState('') */
-
-  useEffect(() => {
-    setService(ProServices.find((s) => s._id === serviceID))
-    /* Service.category === 'PRO'
-      ? setBackbutton('/pro-services')
-      : setBackbutton('/banking-services') */
-    /* setAltTag(Service.metaTitle.split('-', 1)) */
-  }, [serviceID])
-
+const index = ({ Service }) => {
   return (
     <>
       <Title
@@ -118,6 +100,32 @@ const index = () => {
       </div>
     </>
   )
+}
+
+export const getStaticProps = async (context) => {
+  const res = await fetch(`${server}/api/services/${context.params.slug}`)
+
+  const Service = await res.json()
+
+  return {
+    props: {
+      Service,
+    },
+  }
+}
+
+export const getStaticPaths = async () => {
+  const res = await fetch(`${server}/api/services`)
+
+  const services = await res.json()
+
+  const slugs = services.map((service) => service.slug)
+  const paths = slugs.map((slug) => ({ params: { slug: slug.toString() } }))
+
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 export default index

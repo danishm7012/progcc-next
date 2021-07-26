@@ -1,9 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import Link from 'next/link'
-import AllServices from '../companiesData/fServices'
 
-const BankingServices = () => {
+const BankingServices = ({ services }) => {
   return (
     <div id='bankingServices' className='section banking-h1'>
       <Row>
@@ -15,20 +14,20 @@ const BankingServices = () => {
       </Row>
       <Container>
         <Row>
-          {AllServices.filter((service) => service.category === 'Banking').map(
-            (s) => (
+          {services
+            .filter((service) => service.category === 'Banking')
+            .map((s) => (
               <Col lg={4}>
-                <Link href={`${s._id}`}>
+                <Link href={`${s.slug}`}>
                   <Card className='banking-servcie'>
                     <Card.Title>
-                      <img className='banking-icon' src={s.icon} alt={s.id} />
+                      <img className='banking-icon' src={s.icon} alt={s.slug} />
                       {s.name}
                     </Card.Title>
                   </Card>
                 </Link>
               </Col>
-            )
-          )}
+            ))}
         </Row>
       </Container>
     </div>
