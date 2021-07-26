@@ -1,13 +1,23 @@
 import { Container, Jumbotron, Row, Col, Button } from 'react-bootstrap'
+import React, { useState, useEffect } from 'react'
 import Title from '../../components/proServiceDetail/Title'
 import SectionH1 from '../../components/proServiceDetail/sectionH1'
 import List from '../../components/proServiceDetail/List'
 import Section from '../../components/proServiceDetail/section'
+import ProServices from '../../companiesData/fServices'
 import Meta from '../../components/Meta'
 import Link from 'next/link'
-import { server } from '../../config/index'
+import { useRouter } from 'next/router'
 
-const index = ({ Service }) => {
+const index = () => {
+  const router = useRouter()
+  const { slug } = router.query
+  const [Service, setService] = useState({})
+
+  useEffect(() => {
+    setService(ProServices.find((s) => s.slug === slug))
+  }, [slug])
+
   return (
     <>
       <Title
@@ -101,7 +111,7 @@ const index = ({ Service }) => {
     </>
   )
 }
-
+/* 
 export const getStaticProps = async (context) => {
   const res = await fetch(`${server}/api/services/${context.params.slug}`)
 
@@ -127,5 +137,5 @@ export const getStaticPaths = async () => {
     fallback: false,
   }
 }
-
+ */
 export default index

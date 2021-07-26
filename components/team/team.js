@@ -2,9 +2,9 @@ import Member from './member'
 
 const team = () => {
   return (
-    <div id='team' class='team section section-bg'>
-      <div class='container' data-aos='fade-up'>
-        <div class='section-title'>
+    <div id='team' className='team section section-bg'>
+      <div className='container' data-aos='fade-up'>
+        <div className='section-title'>
           <h2>Team</h2>
           <p>
             ProGcc helps businesses grow by assuring their marketing budget is
@@ -13,7 +13,7 @@ const team = () => {
           </p>
         </div>
 
-        <div class='row'>
+        <div className='row'>
           <Member
             name='Walter White'
             designation='Chief Executive Officer'
