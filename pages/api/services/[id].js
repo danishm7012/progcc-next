@@ -1,4 +1,4 @@
-import Services from '../../../companiesData/fServices'
+/* import Services from '../../../companiesData/fServices'
 
 export default function handler({ query: { slug } }, res) {
   const filtered = Services.filter((service) => service.slug === slug)
@@ -11,3 +11,4 @@ export default function handler({ query: { slug } }, res) {
       .json({ message: `Service with the slug of ${slug} is not found` })
   }
 }
+ */
