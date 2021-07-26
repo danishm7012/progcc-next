@@ -1,24 +1,25 @@
-import { server } from '../config'
+/* import { server } from '../config' */
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Pro from '../components/Pro'
 import Banking from '../components/Banking'
 import Team from '../components/team/team'
 import Contact from '../components/Contact'
+import Services from '../companiesData/fServices'
 
-export default function Home({ services }) {
+export default function Home(/* { services } */) {
   return (
     <div>
       <Hero />
-      <Pro services={services} />
+      <Pro services={Services} />
       <About />
-      <Banking services={services} />
+      <Banking services={Services} />
       <Team />
       <Contact />
     </div>
   )
 }
-
+/* 
 export const getStaticProps = async () => {
   const res = await fetch(`http://localhost:3000/api/services`)
   const services = await res.json()
@@ -28,4 +29,4 @@ export const getStaticProps = async () => {
       services,
     },
   }
-}
+} */
