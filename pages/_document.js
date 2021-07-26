@@ -4,7 +4,21 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head />
+        <Head>
+          <script
+            async
+            src='https://www.googletagmanager.com/gtag/js?id=AW-341644431'
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'AW-341644431');`,
+            }}
+          ></script>
+        </Head>
         <body>
           <Main />
           <NextScript />
