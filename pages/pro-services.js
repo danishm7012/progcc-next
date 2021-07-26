@@ -1,18 +1,19 @@
 import Meta from '../components/Meta'
 import Pro from '../components/Pro'
 import Title from '../components/proServiceDetail/Title'
-import { server } from '../config/index'
-const proServices = ({ services }) => {
+import Services from '../companiesData/fServices'
+/* import { server } from '../config/index' */
+const proServices = () => {
   return (
     <>
       <Title img='/images/Banners/pro.jpg' />
       <Meta title='proServices' />
-      <Pro services={services} />
+      <Pro services={Services} />
     </>
   )
 }
 
-export const getStaticProps = async () => {
+/* export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/services`)
   const services = await res.json()
 
@@ -21,6 +22,6 @@ export const getStaticProps = async () => {
       services,
     },
   }
-}
+} */
 
 export default proServices
