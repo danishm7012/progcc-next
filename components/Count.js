@@ -8,11 +8,11 @@ import {
 
 const count = () => {
   return (
-    <section id='counts' class='counts'>
-      <div class='container' data-aos='fade-up'>
-        <div class='row'>
-          <div class='col-lg-3 col-md-6'>
-            <div class='count-box'>
+    <section id='counts' className='counts'>
+      <div className='container' data-aos='fade-up'>
+        <div className='row'>
+          <div className='col-lg-3 col-md-6'>
+            <div className='count-box'>
               <FontAwesomeIcon
                 className='icons'
                 icon={faSmileBeam}
@@ -22,8 +22,8 @@ const count = () => {
             </div>
           </div>
 
-          <div class='col-lg-3 col-md-6 mt-5 mt-md-0'>
-            <div class='count-box'>
+          <div className='col-lg-3 col-md-6 mt-5 mt-md-0'>
+            <div className='count-box'>
               <FontAwesomeIcon
                 className='icons'
                 icon={faJournalWhills}
@@ -33,8 +33,8 @@ const count = () => {
             </div>
           </div>
 
-          <div class='col-lg-3 col-md-6 mt-5 mt-lg-0'>
-            <div class='count-box'>
+          <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
+            <div className='count-box'>
               <FontAwesomeIcon
                 className='icons'
                 icon={faHeadset}
@@ -44,8 +44,8 @@ const count = () => {
             </div>
           </div>
 
-          <div class='col-lg-3 col-md-6 mt-5 mt-lg-0'>
-            <div class='count-box'>
+          <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
+            <div className='count-box'>
               <FontAwesomeIcon
                 className='icons'
                 icon={faPeopleCarry}

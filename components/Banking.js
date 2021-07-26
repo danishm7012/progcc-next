@@ -17,7 +17,7 @@ const BankingServices = ({ services }) => {
           {services
             .filter((service) => service.category === 'Banking')
             .map((s) => (
-              <Col lg={4}>
+              <Col key={s} lg={4}>
                 <Link href={`${s.slug}`}>
                   <Card className='banking-servcie'>
                     <Card.Title>
