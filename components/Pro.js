@@ -17,22 +17,25 @@ const FServices = ({ services }) => {
         </div>
 
         <Row>
-          {services
-            .filter((s) => s.category === 'PRO')
-            .map((service) => (
-              <Col lg={4} md={4} sm={12} xs={12} key={service.name}>
+          {
+            /* .filter((s) => s.category === 'PRO') */
+            services.map((service) => (
+              <Col lg={4} md={4} sm={12} xs={12} key={service.slug}>
                 <Link href={`/${service.slug}`}>
                   <div className='f-services'>
-                    <img
-                      className='service-icon'
-                      src={service.icon}
-                      alt={service.name}
-                    />
-                    <p>{service.name}</p>
+                    {service.icon && (
+                      <img
+                        className='service-icon'
+                        src={service.icon.url}
+                        alt={service.alternativeText}
+                      />
+                    )}
+                    <p>{service.title}</p>
                   </div>
                 </Link>
               </Col>
-            ))}
+            ))
+          }
         </Row>
       </Container>
     </div>

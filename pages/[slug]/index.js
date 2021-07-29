@@ -1,33 +1,44 @@
 import { Container, Jumbotron, Row, Col, Button } from 'react-bootstrap'
-import React, { useState, useEffect } from 'react'
-import Title from '../../components/proServiceDetail/Title'
+/* import React, { useState, useEffect } from 'react' */
+/* import Image from 'next/image' */
 import SectionH1 from '../../components/proServiceDetail/sectionH1'
-import List from '../../components/proServiceDetail/List'
+/* import List from '../../components/proServiceDetail/List'
 import Section from '../../components/proServiceDetail/section'
-import ProServices from '../../companiesData/fServices'
+import ProServices from '../../companiesData/fServices' */
 import Meta from '../../components/Meta'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import MarkdownIt from 'markdown-it'
+/* import { useRouter } from 'next/router'
+import Services from '../../companiesData/fServices' */
 
-const index = () => {
-  const router = useRouter()
+const md = new MarkdownIt()
+
+const index = ({ Service }) => {
+  /* const router = useRouter()
   const { slug } = router.query
   const [Service, setService] = useState({})
 
   useEffect(() => {
     setService(ProServices.find((s) => s.slug === slug))
-  }, [slug])
+  }, [slug]) */
 
   return (
     <>
-      <Title
-        img={Service.banner}
-        altTag={Service.metaTitle} /* altTag={altTag}  */
-      />
+      {/* <Row>
+        <Col>
+          <Image
+            src={Service.image.url}
+            alt={Service.image.alternativeText}
+            height='auto'
+            width='100%'
+            className='service-title'
+          />
+        </Col>
+      </Row> */}
       <div className=' section proService-detail'>
         <Meta
           title={Service.metaTitle}
-          description={Service.metaDesc}
+          description={Service.metaDescription}
           keywords={Service.metaKeyword}
         />
 
@@ -37,7 +48,7 @@ const index = () => {
               <Col>
                 <Link
                   href={
-                    Service.category === 'PRO'
+                    Service.category._id === '60f1612b7806eca740ece88d'
                       ? '/pro-services'
                       : '/banking-services'
                   }
@@ -47,63 +58,21 @@ const index = () => {
                     size='sm'
                     style={{ fontSize: 14, float: 'left', marginTop: '0.7rem' }}
                   >
-                    <i class='fas fa-caret-left'></i> Back
+                    <i className='fas fa-caret-left'></i> Back
                   </Button>
                 </Link>
               </Col>
             </Row>
             <Row>
               <Col>
-                <SectionH1 title={Service.name} detail={Service.detail} />
+                <SectionH1 title={Service.title} />
               </Col>
             </Row>
             <Row>
-              <Col>
-                <List heading={Service.listH} paragraph={Service.listP}></List>
-                <div className='detail-list'>
-                  {Service.list &&
-                    Service.list.map((item) => <li key={item}>{item}</li>)}
-                </div>
-              </Col>
-            </Row>
-
-            <Row>
-              <Col>
-                <Section heading={Service.thirdH} paragraph={Service.thirdP} />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Section heading={Service.forthH} paragraph={Service.forthP} />
-              </Col>
-            </Row>
-            {Service.listH2 && (
-              <Row>
-                <Col>
-                  <List
-                    heading={Service.listH2}
-                    paragraph={Service.listP2}
-                  ></List>
-                  <div className='detail-list'>
-                    {Service.list2 &&
-                      Service.list2.map((item) => <li key={item}>{item}</li>)}
-                  </div>
-                </Col>
-              </Row>
-            )}
-            <Row>
-              <Col>
-                <orderList
-                  heading={Service.listH2}
-                  paragraph={Service.listP2}
-                  list={Service.list2}
-                />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Section heading={Service.fifthH} paragraph={Service.fifthP} />{' '}
-              </Col>
+              <div
+                className='service-content container'
+                dangerouslySetInnerHTML={{ __html: md.render(Service.details) }}
+              ></div>
             </Row>
           </Container>
         </Jumbotron>
@@ -111,9 +80,11 @@ const index = () => {
     </>
   )
 }
-/* 
+
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/services/${context.params.slug}`)
+  const res = await fetch(
+    `https://cms-progcc.herokuapp.com/services/${context.params.slug}`
+  )
 
   const Service = await res.json()
 
@@ -125,7 +96,7 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/services`)
+  const res = await fetch(`https://cms-progcc.herokuapp.com/services/`)
 
   const services = await res.json()
 
@@ -137,5 +108,5 @@ export const getStaticPaths = async () => {
     fallback: false,
   }
 }
- */
+
 export default index

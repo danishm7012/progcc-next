@@ -16,6 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^5.0.2",
     "install": "^0.13.0",
+    "markdown-it": "^12.1.0",
     "next": "10.0.5",
     "npm": "^7.19.0",
     "react": "17.0.1",

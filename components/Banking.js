@@ -14,20 +14,27 @@ const BankingServices = ({ services }) => {
       </Row>
       <Container>
         <Row>
-          {services
-            .filter((service) => service.category === 'Banking')
-            .map((s) => (
+          {
+            /* .filter((service) => service.category === 'Banking') */
+            services.map((s) => (
               <Col key={s} lg={4}>
                 <Link href={`${s.slug}`}>
                   <Card className='banking-servcie'>
                     <Card.Title>
-                      <img className='banking-icon' src={s.icon} alt={s.slug} />
-                      {s.name}
+                      {s.icon && (
+                        <img
+                          className='banking-icon'
+                          src={s.icon.url}
+                          alt={s.alternativeText}
+                        />
+                      )}
+                      {s.title}
                     </Card.Title>
                   </Card>
                 </Link>
               </Col>
-            ))}
+            ))
+          }
         </Row>
       </Container>
     </div>

@@ -1,3 +1,11 @@
+.service-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #121212;
+}
 .service-detail h1 {
   border-bottom: brown solid 3px;
 }

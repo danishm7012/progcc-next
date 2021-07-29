@@ -7,26 +7,35 @@ import Team from '../components/team/team'
 import Contact from '../components/Contact'
 import Services from '../companiesData/fServices'
 
-export default function Home(/* { services } */) {
+export default function Home({ proServices, bankingServices }) {
   return (
     <div>
       <Hero />
-      <Pro services={Services} />
+      <Pro services={proServices} />
       <About />
-      <Banking services={Services} />
+      <Banking services={bankingServices} />
       <Team />
       <Contact />
     </div>
   )
 }
-/* 
-export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:3000/api/services`)
-  const services = await res.json()
 
+export const getStaticProps = async () => {
+  const res1 = await fetch(
+    `https://cms-progcc.herokuapp.com/categories/60f1612b7806eca740ece88d`
+  )
+  const category1 = await res1.json()
+  const { services: proServices } = category1
+  const res2 = await fetch(
+    `https://cms-progcc.herokuapp.com/categories/60f161437806eca740ece88e`
+  )
+  const category2 = await res2.json()
+  const { services: bankingServices } = category2
+  /* console.log(services) */
   return {
     props: {
-      services,
+      proServices,
+      bankingServices,
     },
   }
-} */
+}

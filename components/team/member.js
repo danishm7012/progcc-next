@@ -16,11 +16,11 @@ const member = ({
   linkedIn,
 }) => {
   return (
-    <div class='col-lg-3 col-md-6 d-flex align-items-stretch'>
-      <div class='member' data-aos='fade-up' data-aos-delay='100'>
-        <div class='member-img'>
-          <img src={image} class='img-fluid' alt={name} />
-          <div class='social'>
+    <div className='col-lg-3 col-md-6 d-flex align-items-stretch'>
+      <div className='member' data-aos='fade-up' data-aos-delay='100'>
+        <div className='member-img'>
+          <img src={image} className='img-fluid' alt={name} />
+          <div className='social'>
             <a href={twitter}>
               <FontAwesomeIcon
                 className='icons'
@@ -47,7 +47,7 @@ const member = ({
             </a>
           </div>
         </div>
-        <div class='member-info'>
+        <div className='member-info'>
           <h4>{name}</h4>
           <span>{designation}</span>
         </div>
