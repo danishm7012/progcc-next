@@ -2,6 +2,8 @@ import { Container, Jumbotron, Row, Col, Button } from 'react-bootstrap'
 /* import React, { useState, useEffect } from 'react' */
 /* import Image from 'next/image' */
 import SectionH1 from '../../components/proServiceDetail/sectionH1'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' // Import the FontAwesomeIcon component
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons' // import the icons you needz
 /* import List from '../../components/proServiceDetail/List'
 import Section from '../../components/proServiceDetail/section'
 import ProServices from '../../companiesData/fServices' */
@@ -58,7 +60,11 @@ const index = ({ Service }) => {
                     size='sm'
                     style={{ fontSize: 14, float: 'left', marginTop: '0.7rem' }}
                   >
-                    <i className='fas fa-caret-left'></i> Back
+                    <FontAwesomeIcon
+                      icon={faChevronLeft}
+                      className='icons'
+                    ></FontAwesomeIcon>{' '}
+                    Back
                   </Button>
                 </Link>
               </Col>
