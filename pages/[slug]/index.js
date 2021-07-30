@@ -42,6 +42,7 @@ const index = ({ Service }) => {
           title={Service.metaTitle}
           description={Service.metaDescription}
           keywords={Service.metaKeyword}
+          html={Service.html}
         />
 
         <Jumbotron>
