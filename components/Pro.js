@@ -8,10 +8,10 @@ const FServices = ({ services }) => {
         <div className='section-title'>
           <h2 className='py-3 text-center pro-h1'>PRO Services in UAE</h2>
           <p>
-            When it comes to delivering PRO Services in UAE, our team of expert
-            Consultants handhold you throughout the required PRO Service from
-            the beginning to the end. Our Consultants here in Dubai offer PRO
-            Services to our valuable clients by liaising with the concerned
+            When it comes to delivering PRO Services in UAE, our team of
+            Professionals handhold you throughout your desired services from the
+            beginning to the end. Our consultants here in Dubai offer PRO
+            services to our valuable clients by liaising with the concerned
             Government Authorities.
           </p>
         </div>

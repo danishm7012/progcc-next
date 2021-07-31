@@ -11,7 +11,13 @@ const Hero = () => {
               <h1>
                 PRO Services & All Banking Solutions One Window Operations
               </h1>
-              <h2>Bettter PRO Services experience with ProGcc in UAE.</h2>
+              <h2>
+                ProGcc is one of the top experienced business setup consultants
+                in Dubai, UAE. We offer assistance towards a range of high-value
+                PRO and government related services to able all sizes of
+                companies in focusing on business plans while we clear a path
+                with streamlined License, Visa, and all Government services.
+              </h2>
               <Link href='/contact'>
                 <Button className='btn-get-started scrollto'>
                   Book An Appointment

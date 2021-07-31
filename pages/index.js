@@ -5,12 +5,14 @@ import Pro from '../components/Pro'
 import Banking from '../components/Banking'
 import Team from '../components/team/team'
 import Contact from '../components/Contact'
+import WhyUs from '../components/WhyUs'
 import Services from '../companiesData/fServices'
 
 export default function Home({ proServices, bankingServices }) {
   return (
     <div>
       <Hero />
+      <WhyUs />
       <Pro services={proServices} />
       <About />
       <Banking services={bankingServices} />

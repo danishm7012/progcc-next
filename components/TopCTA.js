@@ -1,7 +1,7 @@
 import { Row, Container, Col } from 'react-bootstrap'
 import TopStyle from '../styles/TopCTA.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' // Import the FontAwesomeIcon component
-import { faPhone, faChevronRight } from '@fortawesome/free-solid-svg-icons' // import the icons you needz
+import { faPhone } from '@fortawesome/free-solid-svg-icons' // import the icons you needz
 import {
   faWhatsapp,
   faTwitter,
