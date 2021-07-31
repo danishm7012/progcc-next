@@ -1,42 +1,41 @@
-import { Container, Jumbotron, Row, Col, Button } from 'react-bootstrap'
-/* import React, { useState, useEffect } from 'react' */
-/* import Image from 'next/image' */
+import { Container, Jumbotron, Row, Col, Button, Image } from 'react-bootstrap'
+import React, { useState, useEffect } from 'react'
+
 import SectionH1 from '../../components/proServiceDetail/sectionH1'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' // Import the FontAwesomeIcon component
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons' // import the icons you needz
 /* import List from '../../components/proServiceDetail/List'
-import Section from '../../components/proServiceDetail/section'
-import ProServices from '../../companiesData/fServices' */
+import Section from '../../components/proServiceDetail/section' */
+import ProServices from '../../companiesData/fServices'
 import Meta from '../../components/Meta'
 import Link from 'next/link'
 import MarkdownIt from 'markdown-it'
-/* import { useRouter } from 'next/router'
-import Services from '../../companiesData/fServices' */
+import { useRouter } from 'next/router'
 
 const md = new MarkdownIt()
 
 const index = ({ Service }) => {
-  /* const router = useRouter()
+  const router = useRouter()
   const { slug } = router.query
-  const [Service, setService] = useState({})
+  const [ServiceImg, setServiceImg] = useState({})
 
   useEffect(() => {
-    setService(ProServices.find((s) => s.slug === slug))
-  }, [slug]) */
+    setServiceImg(ProServices.find((s) => s.slug === slug))
+  }, [slug])
 
   return (
     <>
-      {/* <Row>
+      <Row>
         <Col>
           <Image
-            src={Service.image.url}
-            alt={Service.image.alternativeText}
+            src={ServiceImg.banner}
+            alt={ServiceImg.slug}
             height='auto'
             width='100%'
             className='service-title'
           />
         </Col>
-      </Row> */}
+      </Row>
       <div className=' section proService-detail'>
         <Meta
           title={Service.metaTitle}

@@ -63,33 +63,12 @@ const Services = [
       'The UAE biometric passport is an official document of the UAE for Immigration. Other country and UAE citizens can apply for renewal of the UAE passport for Immigration and obtain another visa that is an alternative to the lost UAE passport; this document processing carried out through the authorities responsible for UAE passports, such as the Directorate General of Residency and Foreign Affairs, GDRFA citizenship departments. It can be applied through the PRO GCC online Channels portal website, as well as residence, citizenship, and The Federal Authority for Identity and Nationality, Abu Dhabi, Dubai, and Sharjah Airports, UAE and other country citizens can renew the passport in an emergency at Abu Dhabi, Dubai and Sharjah airports, renew the passport. In case of expiry of passport or visa, if they travel abroad, they can contact the EMBASSy of the UAE in the country where they available to begin the procedures for renewing the UAE passport.',
   },
   {
-    slug: 'united-arab-emirates-importance-to-youth-empowerment',
-    name: 'United Arab Emirates Importance to Youth Empowerment',
-    banner: '/images/Banners/youth-empowerment.jpg',
-    icon: '/images/icons/33-Small-co-working-and-furnished-office-space-or-shared-office-space-for-rent-in-Dubai.png',
-    metaTitle: `Youth Empowerment UAE - PRO GCC Services`,
-    metaDesc: `The UAE attaches great importance to youth empowerment, as the youth sector is the most vital in all societies, given the hopes and unlimited capacities`,
-    metaKeyword: `Youth Empowerment UAE`,
-    category: 'PRO',
-    detail: `The UAE attaches great importance to youth empowerment, as the youth sector is the most vital in all societies, given the hopes, broad ambitions, and unlimited capacities for giving and innovation, so there is a significant role that young people can play in promoting and upgrading their communities if they have the suitable climate.\n
-    The UAE's good leadership recognizes the critical importance of the youth sector and its role in the development process. It has therefore provided every opportunity to support their participation in public life. The UAE's national youth plan seeks to promote youth participation in its development process and its local and global agenda. This plan focuses on five main themes that keep pace with developments in the individual through the transition to adulthood, and critical effects from the age of 15 to 35 in the areas of learning for life and work, developing a productive working life, adopting a healthy and safe lifestyle, forming a family and exercising citizenship. With its overall objectives, this plan fully reflects a vision of how to provide opportunities to support and empower young people's participation.
-    `,
-    listH: '',
-    listP: '',
-    list: [],
-    thirdH: '',
-    thirdP:
-      'H.E. Shamma Al Mazrouei, Minister of State for Youth Affairs, said on the occasion of her participation in the recent World Youth Forum in Egypt under the auspices of President Abdel Fattah al-Sisi that supporting our wise leadership. The Head of State, May God save him, and His Highness Sheikh Mohammed bin Rashid Al Maktoum, Deputy Prime Minister, Ruler of Dubai, Patronage of God, His Highness Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi, Deputy Commander-in-Chief of the Armed Forces, May God save him, enabled the UAE to provide a successful model in empowering young people and genuinely involving them in the making of the future.',
-    forthH: '',
+    slug: 'youth-empowerment-uae',
 
-    forthP: `Launched by the Federal Youth Foundation, the National Youth Empowerment Strategy reflects the UAE's keenness and rational leadership to provide all opportunities for the nation's youth, male and female, to actively participate in the UAE's overall development process, to create the UAE's future and achieve the UAE's 2071 centenary goals, consisting of a two-pronged approach aimed at setting overall strategic priorities for the youth sector and partnering with relevant government agencies and ministries to clarify and address the needs of young people, challenges and opportunities. The Federal Youth Foundation has developed a comprehensive set of tools and platforms to connect with and empower young people, raise their voices, and express their opinions inside and outside the UAE.`,
-    fifthH: '',
-    fifthP: `The continued efforts of our rational leadership in the empowerment of the youth sector have opened the door wide for our young men and women to contribute effectively to our development process, which has become the focus of the world's attention. There are many essential indicators in this context, which cannot be mentioned. For example, only to indicate that the future government formed in February 2016 included eight new ministers, five of them women. The average age of new ministers was 38.\n
-    Today's youth are the men and leaders of tomorrow and the builders of the future. The UAE has made tremendous and sustained efforts to empower its youth, which has established an inspiring Arab model of caring for and supporting young people in all ways and providing them with every opportunity to activate their participation in building and promoting their society. This unique UAE youth empowerment model is undoubtedly an inspiring model for other Arab countries, which can benefit significantly from the UAE's experience in supporting and empowering the youth sector.
-    `,
+    banner: '/images/Banners/youth-empowerment.jpg',
   },
   {
-    slug: 'bank-guarantee-services-for-your-business',
+    slug: 'bank-guarantee-services',
     name: 'Bank Guarantee services for Your Business',
 
     banner: '/images/Banners/Bank-Guarantee-in-UAE.jpg',
@@ -124,7 +103,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'business-registration-and-licensing-dubai',
+    slug: 'business-registration-in-dubai',
     name: 'Business registration and licensing Dubai',
     banner: '/images/Banners/business-registration-and-licensing.jpg',
     icon: '/images/icons/03-Business-Registration-&-Licensing.png',
@@ -216,7 +195,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'business-trade-licensing',
+    slug: 'trade-license-service',
     name: 'business trade licensing',
     banner: '/images/Banners/business-trade-licensing.jpg',
     icon: '/images/icons/06-General-Trading-Licensing.png',
@@ -244,7 +223,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'CICPA-security-passes-services',
+    slug: 'cicpa-security-pass',
     name: 'CICPA Security Passes Services with PRO GCC GUIDE',
     banner: '/images/Banners/CICPA-Security-Passes-Services.jpg',
     icon: '/images/icons/16-CICPA-Security-Passes-Services.png',
@@ -302,7 +281,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'company-registration-in-UAE',
+    slug: 'company-registration-in-dubai',
     name: 'Company registration in UAE',
     banner: '/images/Banners/Company-Registration-in-UAE.jpg',
     icon: '/images/icons/01-Company-Registration-Services.png',
@@ -353,7 +332,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'visa-permission-to-the-UAE',
+    slug: 'visa-permission-uae',
     name: 'visa permission to the UAE',
     banner: '/images/Banners/visa-permission.jpg',
     icon: '/images/icons/40-Translates-legal-documents-into-Arabic.png',
@@ -403,7 +382,7 @@ const Services = [
     `,
   },
   {
-    slug: 'dubai-economic-department-trade-license-renewal',
+    slug: 'trade-license-renewal-online-dubai',
     name: 'Dubai Economic Department Trade License Renewal',
     banner:
       '/images/Banners/dubai-economic-department-trade-license-renewal.jpg',
@@ -435,7 +414,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'dubai-local-telephone-numbers-for-your-business',
+    slug: 'dubai-local-phone-number',
     name: 'Dubai Local Telephone Numbers for Your Business',
     banner: '/images/Banners/local-telephone-numbers.jpg',
     icon: '/images/icons/19-Local-telephone-numbers.png',
@@ -499,7 +478,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'dubai-Office-setup',
+    slug: 'dubai-office-setup',
     name: 'Dubai Office Setup',
     banner: '/images/Banners/Offic-Setup-in-Dubai.jpg',
     icon: '/images/icons/02-Office-Setup-in-Dubai.png',
@@ -585,7 +564,7 @@ const Services = [
     fifthP: `All companies engaged in engineering or contracting activities should immediately explore whether the activities currently licensed on the company's commercial license require classification. The same applies to people planning to create new companies operating in these sectors.`,
   },
   {
-    slug: 'flexi-desk-services',
+    slug: 'flexi-desk-dubai-services',
     name: 'Flexi desk services',
     banner: '/images/Banners/flexi-desk-services.jpg',
     icon: '/images/icons/14-Flexi-desk-services.png',
@@ -615,7 +594,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'General-Trade-License',
+    slug: 'general-trade-license-dubai',
     name: 'General Trade License',
     banner: '/images/Banners/general-trading-licensing.jpg',
     icon: '/images/icons/06-General-Trading-Licensing.png',
@@ -654,7 +633,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'import-and-export-certificates-and-documents-through-a-notary',
+    slug: 'import-and-export-document-attestation-notary',
     name: 'Import and export certificates and documents through a notary',
     banner:
       '/images/Banners/Import.export-certificates-and-other-legal-documents.jpg',
@@ -696,7 +675,7 @@ const Services = [
     fifthP: `The statement of the package is a document issued by the factory or the product with the data of all products and goods charged and the number of each product in addition to the weight of the shipment and the name of the importer. The number of the commercial invoices, as the package's statement contains all the specifications of the products, and those specifications must be correct because the goods are examined by the customs authorities and are confirmed to conform to the specifications. The package statement document is one of the most important documents to be submitted from the source for customs release of goods.`,
   },
   {
-    slug: 'IT-support-services',
+    slug: 'it-support-dubai',
     name: 'IT Support Services (Information Technology)',
     banner: '/images/Banners/IT-Support-services.jpg',
     icon: '/images/icons/22-IT-Support-services.png',
@@ -734,7 +713,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'legal-document-attestation-services-in-UAE',
+    slug: 'document-attestation-for-uae',
     name: 'Legal Document Attestation Services in UAE',
     banner: '/images/Banners/Legal-Document-Attestation-Services.jpg',
     icon: '/images/icons/28-Legal-Document-Attestation-Services.png',
@@ -795,7 +774,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'local-sponsorship-services',
+    slug: 'local-sponsorship-services-dubai-uae',
     name: 'Local Sponsorship services',
     banner: '/images/Banners/Local-Sponsorship-services.jpg',
     icon: '/images/icons/24-Business-sponser-services.png',
@@ -834,7 +813,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'meeting-facilities-in-UAE',
+    slug: 'meeting-facilities-in-uae',
     name: 'PRO GCC Meeting facilities in UAE',
     banner: '/images/Banners/meeting-rooms-services.jpg',
     icon: '/images/icons/18-Meeting-rooms-services.png',
@@ -877,7 +856,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'prime-business-address-services',
+    slug: 'prime-business-address-services-dubai',
     name: 'Prime business address services',
 
     banner: '/images/Banners/prime-business-address-services.jpg',
@@ -904,7 +883,7 @@ const Services = [
     `,
   },
   {
-    slug: 'quality-assurance-in-Business ',
+    slug: 'quality-assurance-company-in-dubai',
     name: 'Quality Assurance in Business ',
     banner: '/images/Banners/Assurance-to-investors-and-partners.jpg',
     icon: '/images/icons/46-Assurance-to-investors-and-partners.png',
@@ -1112,7 +1091,7 @@ const Services = [
     fifthP: `A study by Small Business Labs shows that 80% of co-workers report that they turn to their co-workers for work guidance. This is a large number of business owners who are leveraging workspaces to support their business decisions and gain new insights into their industry. `,
   },
   {
-    slug: 'smart-desk-services',
+    slug: 'smart-desk-offices-service',
     name: 'smart desk services',
     banner: '/images/Banners/smart-desk-services.jpg',
     icon: '/images/icons/15-smart-desk-services.png',
@@ -1173,7 +1152,7 @@ const Services = [
     fifthP: `Identifying and approving the policies and strategies of oil, gas and other hydrocarbons in the light of national circumstances and interests, including determining production quantities and approving plans for pricing different sources of fuel and values in the Abu Dabi.`,
   },
   {
-    slug: 'tourism-license',
+    slug: 'tourism-license-in-dubai',
     banner: '/images/Banners/Tourism-license-services.jpg',
     icon: '/images/icons/23Tourism-license-services.png',
     metaTitle: `Tourism License in Dubai | PRO GCC Tourism License Services in UAE`,
@@ -1251,7 +1230,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'uae-citizen-partner',
+    slug: 'uae-citizen-partnership',
     name: 'UAE Citizen Partner',
     banner: '/images/Banners/UAE-citizen-partnership.jpg',
     icon: '/images/icons/26-Local-partner-services.png',
@@ -1487,7 +1466,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'ways-to-get-an-industrial-or-commercial-license-in-the-uae',
+    slug: 'commercial-license-in-the-uae',
     name: 'Ways to get an industrial or commercial license in the UAE',
     banner:
       '/images/Banners/Apply-for-an-industrial-or-commercial-license-and-submit-an-application-for-renewal.jpg',
@@ -1591,7 +1570,7 @@ const Services = [
     fifthP: '',
   },
   {
-    slug: 'affice-suit-services',
+    slug: 'office-suite-spaces-rental',
     name: 'Office suit services',
     banner: '/images/Banners/office-suits-services.jpg',
     icon: '/images/icons/20-Office-suits-services.png',
@@ -2040,7 +2019,7 @@ const Services = [
     fifthP: ``,
   },
   {
-    slug: 'company-registration-in-uae',
+    slug: 'company-registration',
     name: 'Company registration',
     banner: '/images/Banners/Company-Registration-Service.jpg',
     icon: '/images/icons/banking/Company-Registration_icon.png',
@@ -2095,7 +2074,7 @@ const Services = [
     `,
   },
   {
-    slug: 'credit-card',
+    slug: 'credit-card-service',
     name: 'Credit Card',
     banner: '/images/Banners/Credit-Card.jpg',
     icon: '/images/icons/banking/Cradit-Card_Icon.png',
