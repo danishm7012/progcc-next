@@ -1,6 +1,5 @@
-import { Row, Col } from 'react-bootstrap'
-import Image from 'next/image'
-const title = ({ img, altTag /* , height, width  */ }) => {
+import { Row, Col, Image } from 'react-bootstrap'
+const title = ({ img, altTag }) => {
   return (
     <Row>
       <Col>

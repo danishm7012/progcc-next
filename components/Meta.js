@@ -9,11 +9,13 @@ const Meta = ({ title, keywords, description, html }) => {
       <meta charSet='utf-8' />
       <link rel='icon' href='/favicon.ico' />
       <title>{title}</title>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: `${html}`,
-        }}
-      ></div>
+      {html && (
+        <span
+          dangerouslySetInnerHTML={{
+            __html: `${html}`,
+          }}
+        ></span>
+      )}
     </Head>
   )
 }
