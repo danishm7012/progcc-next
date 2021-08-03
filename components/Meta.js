@@ -10,11 +10,11 @@ const Meta = ({ title, keywords, description, html }) => {
       <link rel='icon' href='/favicon.ico' />
       <title>{title}</title>
       {html && (
-        <span
+        <div
           dangerouslySetInnerHTML={{
             __html: `${html}`,
           }}
-        ></span>
+        ></div>
       )}
     </Head>
   )
