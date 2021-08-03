@@ -25,6 +25,12 @@ const index = ({ Service }) => {
 
   return (
     <>
+      <Meta
+        title={Service.metaTitle}
+        description={Service.metaDescription}
+        keywords={Service.metaKeyword}
+        html={Service.html}
+      />
       <Row>
         <Col>
           <Image
@@ -37,13 +43,6 @@ const index = ({ Service }) => {
         </Col>
       </Row>
       <div className=' section proService-detail'>
-        <Meta
-          title={Service.metaTitle}
-          description={Service.metaDescription}
-          keywords={Service.metaKeyword}
-          html={Service.html}
-        />
-
         <Jumbotron>
           <Container>
             <Row>
