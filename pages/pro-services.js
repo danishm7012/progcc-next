@@ -7,7 +7,11 @@ const proServices = ({ proServices }) => {
   return (
     <>
       <Title img='/images/Banners/pro.jpg' />
-      <Meta title='proServices' />
+      <Meta
+        title='PRO Services in UAE - PRO Services Dubai - PRO GCC'
+        description='PRO Services in UAE where PRO GCC team of expert Consultants handhold you throughout the required PRO Service Dubai from the beginning to the end with legal documentation.'
+        keywords='Pro services in dubai'
+      />
       <Pro services={proServices} />
     </>
   )

@@ -8,7 +8,11 @@ const bankingServices = ({ bankingServices }) => {
   return (
     <>
       <Title img='/images/Banners/Banking-and-Finance.jpg' />
-      <Meta title='Banking Services' />
+      <Meta
+        title='Banking Services for your Business in Dubai, UAE - PRO GCC'
+        description='Banking and finance services in Dubai, UAE PRO GCC provide the licensed financial system that operate to receive BANK deposits, grant credits, bank insurance and provide many other banking services.'
+        keywords='Banking Services in Dubai'
+      />
       <Banking services={bankingServices} />
     </>
   )

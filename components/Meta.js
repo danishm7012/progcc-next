@@ -21,10 +21,10 @@ const Meta = ({ title, keywords, description /* , html */ }) => {
 }
 
 Meta.defaultProps = {
-  title: 'PRO Services in UAE - PRO Services Dubai - PRO GCC',
+  title: 'New Business Setup in Dubai, UAE - Company Formation with PRO GCC',
   keywords: 'PRO Services',
   description:
-    'PRO Services in UAE where PRO GCC team of expert Consultants handhold you throughout the required PRO Service Dubai from the beginning to the end with legal documentation.',
+    'New Business setup in Dubai, UAE, let us now for the best cost to setup your new company. We provide complete solution with professional company setup services.',
 }
 
 export default Meta
