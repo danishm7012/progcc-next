@@ -7,8 +7,8 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons' // import the 
 /* import List from '../../components/proServiceDetail/List'
 import Section from '../../components/proServiceDetail/section' */
 import ProServices from '../../companiesData/fServices'
+import Meta from '../../components/Meta'
 import Link from 'next/link'
-import Head from 'next/head'
 import MarkdownIt from 'markdown-it'
 import { useRouter } from 'next/router'
 
@@ -25,19 +25,12 @@ const index = ({ Service }) => {
 
   return (
     <>
-      <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='keywords' content={Service.metaKeyword} />
-        <meta name='description' content={Service.metaDescription} />
-        <meta charSet='utf-8' />
-        <link rel='icon' href='/favicon.ico' />
-        <title>{Service.metaTitle}</title>
-        {Service.html && (
-          <div
-            dangerouslySetInnerHTML={{ __html: md.render(Service.html) }}
-          ></div>
-        )}
-      </Head>
+      <Meta
+        title={Service.metaTitle}
+        description={Service.metaDescription}
+        keywords={Service.metaKeyword}
+        html={Service.html}
+      />
       <Row>
         <Col>
           <Image
