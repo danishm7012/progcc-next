@@ -5,39 +5,39 @@ const FAQs = [
   },
   {
     Q: `2: What is youth empowerment ?`,
-    link: `/united-arab-emirates-importance-to-youth-empowerment`,
+    link: `/youth-empowerment-uae`,
   },
   {
     Q: `3: What is Bank Guarantee services?`,
-    link: `/bank-guarantee-services-for-our-business`,
+    link: `/bank-guarantee-services`,
   },
   {
     Q: `4: How to get Business registration and licensing in  Dubai?`,
-    link: `/business-registration-and-licensing-dubai`,
+    link: `/business-registration-in-dubai`,
   },
   {
     Q: `5: What are Business sponsor services?`,
-    link: `/business-sponsor-services`,
+    link: `/local-sponsorship-services-dubai-uae`,
   },
   {
     Q: `6: How can I get business trade license?`,
-    link: `/business-trade-licensing`,
+    link: `/general-trade-license-dubai`,
   },
   {
     Q: `7: What is CICPA Security Passes Services?`,
-    link: `/CICPA-Security-Passes-Services-with-PRO-GCC-GUIDE`,
+    link: `/cicpa-security-pass`,
   },
   {
     Q: '8: What is General Trade License ??',
-    link: `/General-Trade-License`,
+    link: `/general-trade-license-dubai`,
   },
   {
     Q: `9: What is UAE Citizen Partnership ?`,
-    link: `/UAE-Citizen-Partner`,
+    link: `/local-partner-services`,
   },
   {
     Q: `10: How can i get Tourism license in UAE ??`,
-    link: `/Tourism-license`,
+    link: `/tourism-license-in-dubai`,
   },
 ]
 
