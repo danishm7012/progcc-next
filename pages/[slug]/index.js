@@ -29,6 +29,8 @@ const index = ({ Service }) => {
         title={Service.metaTitle}
         description={Service.metaDescription}
         keywords={Service.metaKeyword}
+        ogImage={ServiceImg.banner}
+        canonical={slug}
         html={Service.html}
       />
       <Row>
