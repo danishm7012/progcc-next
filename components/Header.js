@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import HeaderStyle from '../styles/Header.module.css'
-import { Nav, Navbar, Container, Image } from 'react-bootstrap'
+import { Nav, Navbar, Container, Image, Button, NavLink } from 'react-bootstrap'
 import TopCTA from './TopCTA'
 
 const Header = () => {
@@ -69,10 +69,13 @@ const Header = () => {
                 WHAT'S NEW
               </Nav.Link>
 
-              <Nav.Link href='/contact' className={HeaderStyle.contactBtn}>
-                {' '}
-                CONTACT US{' '}
-              </Nav.Link>
+              <NavLink
+                style={{ color: 'white' }}
+                href='/contact'
+                className={HeaderStyle.contactBtn}
+              >
+                CONTACT US
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
