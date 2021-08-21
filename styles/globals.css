@@ -549,6 +549,55 @@ h5 {
   color: #121212;
 }
 
+/* testimonials */
+
+.testimonial-page p {
+  color: #121212;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.testimonial-card {
+  padding: 1rem;
+  border-radius: 10px;
+  background: gainsboro;
+  position: relative;
+}
+.testimonial-card p {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.testimonial-card h3 {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.testimonial-card .qutoes {
+  position: absolute;
+  top: -3%;
+}
+.testimonial-card .qutoes .icons {
+  color: #e03a3c;
+  font-size: 30px;
+}
+
+.testimonail-name span {
+  color: #e03a3c;
+}
+
+/* Logo Slider */
+.logo-slider {
+  height: 250px;
+  background: #151515;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
