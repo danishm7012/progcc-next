@@ -2,8 +2,7 @@ export const TestimonialData = [
   {
     id: '1',
     img: '/images/testimonial/testimonial1.png',
-    details:
-      "ProGcc is a steady hand at the wheel of the client's organic digital marketing, bringing tested experience and a broad knowledge base to bear. Transparency and comprehension are ensured by their detailed presentations. Customers in the future will find a giving partner who is eager to offer their expertise. ",
+    details: `PRO GCC is, in fact, one of the finest PRO service providers in Dubai, according to our research. We're relieved that we've finally found the proper individuals to help us with our business. I would want to express my gratitude to PRO Services Dubai for providing me with outstanding service. Definitely worth a try!`,
     Name: 'Smith Dcusa',
     desig: 'Co-Founder',
     company: 'trendsoft',
@@ -11,8 +10,7 @@ export const TestimonialData = [
   {
     id: '2',
     img: '/images/testimonial/testimonial2.jpg',
-    details:
-      "ProGcc has already had a significant influence on the client's KPIs, increasing website traffic and leads in a short amount of time. They thrive at meeting deadlines, completing projects on time, and maintaining open lines of communication. Their crew is known for producing high-quality work.",
+    details: `Good business advisors. At a fair price, they give excellent service. Every new and experienced businessman should contact ProGcc.org for setting up a new business or developing an existing firm, and I highly recommend it.`,
     Name: 'Lora Smith Deo',
     desig: 'Executive',
     company: 'Company',
@@ -20,8 +18,7 @@ export const TestimonialData = [
   {
     id: '3',
     img: '/images/testimonial/testimonial3.png',
-    details:
-      "Though the results have yet to appear, Digi Premier has done an excellent job of market research and has set up a potential SEO and PPC strategy. The client enjoys the partnership's emphasis on education. This is due to the team's proactive knowledge transfer rather than merely producing outcomes.",
+    details: `Exceptional service This firm has exceeded my expectations. They helped me build my firm from the ground up, and they've also assisted me with finance. As a result, I'd like to suggest this firm to anyone seeking for a corporate security, trading, or banking system.`,
     Name: 'Ana Richmono',
     desig: 'Creative Leader',
     company: 'cart Teach zone',
@@ -29,8 +26,7 @@ export const TestimonialData = [
   {
     id: '4',
     img: '/images/testimonial/testimonial4.jpg',
-    details:
-      "ProGcc was an integral component of the product's development and has now become an integral member of the in-house team. They provide you access to a wide range of competent resources who may be brought on board as needed. The group takes responsibility for their work and strives for constant development.",
+    details: `It was a pleasure working with ProGcc to register our firm on the Dubai mainland. Special appreciation to Mr. Ashaq, who looked after our company with professionalism and care during his tenure with the company. Excellent service for a reasonable price. Definitely worth a try.`,
     Name: 'Jerffy Brown',
     desig: 'Pogramming Guro',
     company: 'BlueTeach',
@@ -38,8 +34,7 @@ export const TestimonialData = [
   {
     id: '5',
     img: '/images/testimonial/testimonial1.png',
-    details:
-      "With ProGcc on board, the project has progressed more smoothly and quickly. They operate quickly and effectively with the internal staff. They're quick to respond and work closely with their partners to address difficulties and meet deadlines.",
+    details: `Thanks to ProGcc for providing a supportive and professional staff. Definitely recommended to anyone who is interested in setting up a business in the UAE.`,
     Name: 'Poaul Simson',
     desig: 'Manager',
     company: 'Stone Teach',
@@ -47,8 +42,7 @@ export const TestimonialData = [
   {
     id: '6',
     img: '/images/testimonial/testimonial4.jpg',
-    details:
-      "Although not all of the modifications have been made, organic traffic to the website has grown by 4%–5%, which is a significant boost for the customer. ProGcc is well-versed in their field, and their staff is attentive and well-organized. They're quite open about how they run their business.",
+    details: `All of them are specialists in their respective fields. As a result of Mr. Ashaq's direction and leadership, they operate honestly with their clients and deliver top-notch quality service. You should contact ProGcc if you want to improve the overall performance of your company's operations. More power to you and your colleagues!`,
     Name: 'John D',
     desig: 'Manager',
     company: 'Company',
