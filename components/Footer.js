@@ -118,16 +118,16 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
                 </strong>
                 {'   '}
-                +971 5452 77366
+                +971 4589 1233
                 <br />
                 <strong>
                   <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>{' '}
                   <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
                 </strong>
                 {'   '}
-                +971 054 775 7091
+                +971 5814 39 463
                 <br />
-                <strong>Landline:</strong> +971 4 5891171
+                <strong>Landline:</strong> +971 5452 77366
                 <br />
                 <strong>Email:</strong> info@progcc.org
                 <br />

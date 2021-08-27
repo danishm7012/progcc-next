@@ -19,8 +19,8 @@ function TopCTA() {
           <Col>
             <p>
               <a href='tel:+971545277366' className={TopStyle.topLink}>
-                <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> +971 54
-                5277366{' '}
+                <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> +971 5452
+                77366{' '}
               </a>
               <a
                 href='https://api.whatsapp.com/send?phone=+971581439463'

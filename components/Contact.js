@@ -68,10 +68,12 @@ function contactUs() {
                     ></FontAwesomeIcon>
                     <h3>Call Us</h3>
                     <p>
-                      <span>UAE:</span> +971 58 1439463 <br />
-                      <span>UK:</span> +44 7391 758 721
+                      <span>UAE:</span> +971 4589-1233
                       <br />
-                      <span>PAK</span> +92 423 2801559
+                      +971 581-439-463
+                      <br />
+                      +971 545-277-366 <br />
+                      <span>UK:</span> +44 7391 758 721
                     </p>
                   </div>
                 </div>
