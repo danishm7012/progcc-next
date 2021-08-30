@@ -16,6 +16,7 @@
   padding-left: 1rem;
 }
 .contactBtn {
+  text-align: center;
   background: #ec1c24;
   border: 0;
   padding: 10px 32px;
@@ -35,4 +36,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.mega-menu {
+  position: relative !important;
+}
+.mega-menu .drop-menu {
+  display: none;
+  position: absolute !important;
 }
