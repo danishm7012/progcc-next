@@ -57,118 +57,117 @@ const Header = () => {
               </Nav.Link>
 
               <Nav.Link className={HeaderStyle.link}>
-                <a>
-                  <div className="mega-menu">
-                    BUSINESS SETUP IN UAE <FaAngleDown />
-                    <div className="drop-menu">
-                      <ul>
-                        <li className="drop-down">
-                          <Link href="">
-                            <a>Mainland Compnay Setup</a>
-                          </Link>
-                          <div className="drop-down-menu">
-                            <ul>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li className="drop-down">
-                          <Link href="">
-                            <a>Free Zone Compnay Setup</a>
-                          </Link>
-                          <div className="drop-down-menu">
-                            <ul>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li className="drop-down">
-                          <Link href="">
-                            <a>Off Shore Compnay Setup</a>
-                          </Link>
-                          <div className="drop-down-menu">
-                            <ul>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a>Limited Liabilties Company</a>
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
+                <div className="mega-menu">
+                  BUSINESS SETUP IN UAE <FaAngleDown />
+                  <div className="drop-menu">
+                    <ul>
+                      <li className="drop-down">
+                        <Link href="">
+                          <a>Mainland Compnay Setup</a>
+                        </Link>
+                        <div className="drop-down-menu">
+                          <ul>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li className="drop-down">
+                        <Link href="">
+                          <a>Free Zone Compnay Setup</a>
+                        </Link>
+                        <div className="drop-down-menu">
+                          <ul>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li className="drop-down">
+                        <Link href="">
+                          <a>Off Shore Compnay Setup</a>
+                        </Link>
+                        <div className="drop-down-menu">
+                          <ul>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="">
+                                <a>Limited Liabilties Company</a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
+                </div>
 
-                  {/* <div className="mobile-mega">
+                {/* <div className="mobile-mega">
                     <Accordion>
                       <Accordion.Item eventKey="0">
                         <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -176,7 +175,6 @@ const Header = () => {
                       </Accordion.Item>
                     </Accordion>
                   </div> */}
-                </a>
               </Nav.Link>
               <Nav.Link href="/testimonial" className={HeaderStyle.link}>
                 {" "}
