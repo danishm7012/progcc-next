@@ -34,8 +34,8 @@ function contactUs() {
                     ></FontAwesomeIcon>
                     <h3>Our Address</h3>
                     <p>
-                      <span>UAE Office:</span> P.O. BOX 415253, Dubai, UAE
-                      Business Bay, Park Lane Plaza, 12th Floor, Office No. 1213
+                      <span>UAE Office:</span> Office No. 704, Damas Tower,
+                      Rigga Al Buteen, Deira, Dubai, UAE
                       <br />
                       <span>UK Office:</span> 3rd Floor, 244 Edgware Road,
                       London W2 1DS, UK.
@@ -68,11 +68,11 @@ function contactUs() {
                     ></FontAwesomeIcon>
                     <h3>Call Us</h3>
                     <p>
-                      <span>UAE:</span> +971 4589-1233
+                      <span>UAE:</span> +971 4589 1233
                       <br />
                       +971 581-439-463
                       <br />
-                      +971 545-277-366 <br />
+                      +971 5430 19 663 <br />
                       <span>UK:</span> +44 7391 758 721
                     </p>
                   </div>

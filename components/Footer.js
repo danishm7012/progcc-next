@@ -109,8 +109,8 @@ const Footer = () => {
             <div className='col-lg-3 col-md-6 footer-contact'>
               <h4>Contact Us</h4>
               <p>
-                P.O. BOX 415253, Dubai, UAE Business Bay, Park Lane Plaza, 12th
-                Floor, Office No. 1213
+                <strong>Address:</strong> Office No. 704, Damas Tower, Rigga Al
+                Buteen, Deira, Dubai, UAE
                 <br />
                 <br />
                 <strong>
@@ -126,6 +126,14 @@ const Footer = () => {
                 </strong>
                 {'   '}
                 +971 5814 39 463
+                <br />
+                <br />
+                <strong>
+                  <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>{' '}
+                  <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
+                </strong>
+                {'   '}
+                +971 5430 19 663
                 <br />
                 <strong>Landline:</strong> +971 5452 77366
                 <br />
