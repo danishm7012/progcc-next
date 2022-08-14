@@ -14,7 +14,7 @@ function contactUs() {
             <h2>Contact</h2>
             <iframe
               title='PROGcc office'
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5269363452203!2d55.25959091434539!3d25.185446483901682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d0ffbfffff%3A0x561a6d9c9da2b17d!2sPARK%20LANE%20TOWER!5e0!3m2!1sen!2s!4v1618552117335!5m2!1sen!2s'
+              src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14433.12897843391!2d55.3189547!3d25.2610892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x780ab4b5082c0c07!2sDamas%20Dubai%20Tower!5e0!3m2!1sen!2s!4v1660484736869!5m2!1sen!2s'
               width='100%'
               height='100'
               style={{ border: 0 }}
