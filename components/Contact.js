@@ -51,7 +51,7 @@ function contactUs() {
                       className='icons'
                       icon={faEnvelope}
                     ></FontAwesomeIcon>
-                    <h3>Email Us</h3>
+                    <h3>Email Us:</h3>
                     <p>
                       info@progcc.org
                       <br />
