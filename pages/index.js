@@ -16,7 +16,7 @@ export default function Home({ proServices, bankingServices }) {
       <Pro services={proServices} />
       <About />
       <Banking services={bankingServices} />
-      <Team />
+      {/* <Team /> */}
       <Contact />
     </div>
   )
